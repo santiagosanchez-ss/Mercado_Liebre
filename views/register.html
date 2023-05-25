@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Sen&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    rel="stylesheet" />
+    <title>Mercado Liebre</title>
+</head>
+ 
+<body>
+  
+<header>
+  <div class="top-header">
+    <img class="logo" src="/img/logo-mercado-liebre.svg" alt="logo-mercado-liebre" width="150px"> 
+
+    <div class="buscador">
+      <div class="input">Buscar producto, marcas</div>
+      <div class="lupa"><i class="fa fa-search"></i></div>
+    </div>
+    <p > <i class= "fas fa-hand-holding-usd"></i> Compra en cuotas y sin tarjeta de crédito</p>
+  </div>
+
+
+
+
+<nav>
+  <ul>
+    
+    <li> 
+      <a href="#">Ofertas</a> 
+    </li>
+    
+    <li> 
+      <a href="#">Tiendas Oficiales</a>
+    </li>
+    
+    <li> 
+      <a href="#">Vender</a> 
+    </li>
+    
+    <li> 
+      <a href="#">Ayuda</a> 
+    </li>
+
+
+  </ul>
+  
+  <ul>
+    <li>
+     <a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a>
+    </li>
+    
+    <li> 
+     <a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a> 
+    </li>
+    
+    <li> 
+     <a href="#">Mis compras<i class="fas fa-shopping-basket"></i></a> 
+    </li>
+    
+  </ul>
+
+</nav>
+<div class="burger-menu">
+  <i class="fa fa-bars "></i>
+
+</div>
+
+
+</header>
+
+
+<main id="formulario-registro">
+    <form class="formularios" action="/" method="get">
+    <div class="text-field">    
+        <input type="text" name="nombre completo" placeholder="nombre y apellido">
+    </div>
+    <div class="text-field">
+        <input type="text" name="nombre de usuario" placeholder="nombre de usuario">
+    </div> 
+    <div>
+        <label for="nacimineto"> fecha de nacimiento</label>
+        <input type="date" id="nacimiento" name="nacimineto">
+    </div> 
+    <div class="text-field">
+        <input type="email" name="email" placeholder="E-mail">
+    </div>
+    <div class="text-field">
+        <input type="text" name="domicilio" placeholder="domicilio">
+    </div>
+
+    <h3>Perfil de usuario</h3>
+    <div class="selecciones">
+        <div>
+            <input type="radio" name="perfil" value="vendedor" id="vendedor">
+            <label for="vendedor"> vendedor</label>
+            <input type="radio" name="perfil" value="comprador" id="comprador" >
+            <label for="comprador"> comprador</label>
+        </div>
+    </div>
+
+
+    <h3>intereses</h3>
+    <div class="selecciones"> 
+        <input type="checkbox" name="interes" value="electro" id="electro">
+        <label for="electro">electro </label>
+        <input type="checkbox" name="interes" value="moda" id="moda">
+        <label for="moda">moda</label>
+        <input type="checkbox" name="interes" value="jugueteria" id="jugueteria">
+        <label for="jugueteria">jugueteria</label>
+        <input type="checkbox" name="interes" value="hogar" id="hogar">
+        <label for="hogar">hogar</label>
+        <input type="checkbox" name="interes" value="vida sana" id="vida sana">
+        <label for="vida sana">vida sana</label>
+        
+    </div> 
+    
+    <div>
+        <label for="foto de perfil">foto de perfil</label>
+        <input type="file" name="foto de perfil" id="foto de perfil">   
+    </div>
+    <div class="text-field">
+        <input type="password" name="contrasenia" placeholder="contraseña">
+    </div>
+    <div>
+        <input type="password" name="confirmar contrasenia" placeholder="confirmar contraseña">
+    </div>
+    
+
+    
+    <div>
+        <button class="buttonForm buttonSubmit " type="submit"> enviar</button>
+        <button class="buttonForm buttonReset " type="reset"> borrar</button>
+    </div>
+    </form>
+
+ </main>
+
+
+<footer>
+</footer>
+
+</body>
+</html>
