@@ -92,7 +92,7 @@ header div.burger-menu i {
 
 header div.burger-menu {
     text-align: center;
-   display: none;
+   
 }
 
 footer {
@@ -243,18 +243,20 @@ form div{
     header nav {
       display: flex;
    }   
+   header div.burger-menu{
+      display: none;
+   }
    
 }
 
 @media (min-width:769px ){
-   header div.burger-menu{
-      display: none;
-   }
+  
    main section article{
       width: 22.5%;
-      display: flex;
+      
    }
  
   
 }
+
 
